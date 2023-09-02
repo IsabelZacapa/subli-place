@@ -22,10 +22,7 @@ public class ComunDB {
     static int TIPODB = TipoDB.SQLSERVER;
     static String conectionURL = "jdbc:sqlserver://localhost:1433;"
             + "database=Publicaciones;"
-            + "user=;sa"
-            + "password=;Isabel2807"
-            + "loginTimeout=30;encrypt=false;trustServerCertidicate=false";
-            //+ "integratedSecurity=true";
+            + "integratedSecurity=true";
     
     //Metodo utilizado para obtener la conexion abierta a un gestor de base de datos
     
